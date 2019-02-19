@@ -1,3 +1,6 @@
+
+Based on https://medium.com/@kristin_baumann/react-countdown-6455838b6faf
+count up from a selected time indefinitely.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
