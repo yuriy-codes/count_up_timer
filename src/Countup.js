@@ -70,9 +70,6 @@ class Countup extends Component {
 
   calculateCountup(startDate) {
     let diff = (Date.parse(new Date()) - Date.parse(new Date(startDate))) / 1000;
-    console.log(Date.parse(new Date()))
-    console.log(Date.parse(new Date(startDate)))
-    console.log(diff)
     // clear countUp when date is reached
     if (diff <= 0) return false;
 
